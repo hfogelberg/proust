@@ -4,11 +4,10 @@ defaultContentLanguage: sv
 title: Proust projektet
 theme: cupper-hugo-theme
 googleAnalytics: UA-123456789-1
-disqusShortname: yourdiscussshortname
 enableGitInfo: true
 
-taxonomies:
-  tag: tags
+# taxonomies:
+#   tag: tags
 
 permalinks:
   post: /:filename/
@@ -23,8 +22,8 @@ params:
   dateFormat: 2006-01-02
   katex: true
   hideHeaderLinks: false
-  search: true
-  showThemeSwitcher: true
+  search: false
+  showThemeSwitcher: false
   defaultDarkTheme: false
   moveFooterToHeader: false
   # navTitleText: Cupper Theme
@@ -38,18 +37,18 @@ params:
 
 menu:
   nav:
-    - name: Proust projektet
+    - name: Proustprojektet
       url: /
       weight: 1
-    - name: Läsning
-      url: /post/
+    - name: Swanns värld
+      url: /swann/
       weight: 2
-    - name: Tags
-      url: /tags/
+    - name: Proust och jag
+      url: /proustOchJag
       weight: 3
-    - name: Om
-      url: /about/
-      weight: 4
+    # - name: Om mig
+    #   url: /omMig
+    #   weight: 4
 
 markup:
   defaultMarkdownHandler: goldmark
