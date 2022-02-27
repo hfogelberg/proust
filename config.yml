@@ -40,12 +40,15 @@ menu:
     - name: Proustprojektet
       url: /
       weight: 1
-    - name: Swanns värld
+    - name: Swanns värld - Combray
       url: /swann/
       weight: 2
+    - name: Karaktärer
+      url: /karaktarer
+      weight: 3
     - name: Proust och jag
       url: /proustOchJag
-      weight: 3
+      weight: 4
     # - name: Om mig
     #   url: /omMig
     #   weight: 4
